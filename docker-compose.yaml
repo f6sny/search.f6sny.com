@@ -9,5 +9,5 @@ services:
       - "7700:7700"
     volumes:
       - /var/local/meilisearch:/data.ms
-    env_file:
-      - ./meilisearch.env
+    #env_file:
+    #  - ./meilisearch.env
